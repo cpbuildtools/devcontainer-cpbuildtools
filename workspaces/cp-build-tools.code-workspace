@@ -1,8 +1,18 @@
 {
     "folders": [
         {
+            "name": "dev-environment",
+            "path": "../projects/dev-environment",
+            "repository": "https://github.com/cpbuildtools/dev-environment.git"
+        },
+        {
+            "name": "devcontainer-ngdotnet",
+            "path": "../projects/devcontainer-ngdotnet",
+            "repository": "https://github.com/cpbuildtools/devcontainer-ngdotnet.git"
+        },
+        {
             "name": "=== workspaces ===",
-            "path": "../workspaces"
+            "path": "."
         },
         {
             "name": "=== env settings ===",
