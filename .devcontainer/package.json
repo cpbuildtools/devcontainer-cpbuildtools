@@ -1,0 +1,10 @@
+{
+  "name": "cp-build-tools-dev-environment",
+  "scripts": {
+    "postCreateCommand": "",
+    "onCreateCommand": "",
+    "postAttachCommand": "",
+    "postStartCommand": "",
+    "updateContentCommand": ""
+  }
+}
