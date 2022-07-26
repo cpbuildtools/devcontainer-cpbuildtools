@@ -6,6 +6,11 @@
             "repository": "https://github.com/cpbuildtools/dev-environment.git"
         },
         {
+            "name": "dev-container-common",
+            "path": "../projects/dev-container-common",
+            "repository": "https://github.com/cpbuildtools/dev-container-common.git"
+        },
+        {
             "name": "devcontainer-ngdotnet",
             "path": "../projects/devcontainer-ngdotnet",
             "repository": "https://github.com/cpbuildtools/devcontainer-ngdotnet.git"
@@ -19,5 +24,13 @@
             "path": "../.devcontainer"
         }
     ],
-    "settings": {}
+    "settings": {
+        "cSpell.words": [
+            "cpbuildtools",
+            "devcontainer",
+            "devenv",
+            "linq",
+            "pnpm"
+        ]
+    }
 }

@@ -1,10 +1,13 @@
 {
   "name": "cp-build-tools-dev-environment",
   "scripts": {
-    "postCreateCommand": "",
-    "onCreateCommand": "",
-    "postAttachCommand": "",
-    "postStartCommand": "",
-    "updateContentCommand": ""
-  }
+    "postCreate": "echo postCreate",
+    "onCreate": "echo onCreate",
+    "postAttach": "echo postAttach",
+    "postStart": "echo postStart",
+    "updateContent": "echo updateContent"
+  },
+  "workspaces": [
+    "../projects/*"
+  ]
 }

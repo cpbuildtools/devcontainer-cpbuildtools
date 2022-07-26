@@ -11,7 +11,7 @@
         "WORKSPACE": "${localWorkspaceFolder}/workspaces",
         "PROJECTS": "${localWorkspaceFolder}/projects"
     },
-    "initializeCommand": "docker pull ghcr.io/cpbuildtools/devcontainer-ngdotnet/devcontainer-ngdotnet:latest",
+    "xinitializeCommand": "docker pull ghcr.io/cpbuildtools/devcontainer-ngdotnet/devcontainer-ngdotnet:latest",
     "postCreateCommand": "cd /scripts && pnpm run postCreate",
     "onCreateCommand": "cd /scripts && pnpm run onCreate",
     "postAttachCommand": "cd /scripts && pnpm run postAttach",
