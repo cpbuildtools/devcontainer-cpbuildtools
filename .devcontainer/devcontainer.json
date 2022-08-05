@@ -11,12 +11,12 @@
         "WORKSPACE": "${localWorkspaceFolder}/workspaces",
         "PROJECTS": "${localWorkspaceFolder}/projects"
     },
-    "initializeCommand": "docker pull ghcr.io/cpbuildtools/devcontainer-ngdotnet/devcontainer-ngdotnet:latest",
-    "postCreateCommand": "cd /scripts && pnpm run postCreate",
+    "initializeCommand": "command -v devenv >/dev/null && devenv dc-start initialize && docker pull ghcr.io/cpbuildtools/devcontainer-ngdotnet/devcontainer-ngdotnet:latest",
     "onCreateCommand": "cd /scripts && pnpm run onCreate",
-    "postAttachCommand": "cd /scripts && pnpm run postAttach",
-    "postStartCommand": "cd /scripts && nohup bash -c 'pnpm run postStart >> /proc/1/fd/1 &'",
     "updateContentCommand": "cd /scripts && pnpm run updateContent",
+    "postCreateCommand": "cd /scripts && pnpm run postCreate",
+    "postStartCommand": "cd /scripts && nohup bash -c 'pnpm run postStart >> /proc/1/fd/1 &'",
+    "postAttachCommand": "cd /scripts && pnpm run postAttach",
     "settings": {
         "git.defaultCloneDirectory": "/home/vscode/devcontainer/projects"
     },

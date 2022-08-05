@@ -1,14 +1,29 @@
 {
     "folders": [
         {
-            "name": "dev-environment",
-            "path": "../projects/dev-environment",
-            "repository": "https://github.com/cpbuildtools/dev-environment.git"
-        },
-        {
             "name": "dev-container-common",
             "path": "../projects/dev-container-common",
             "repository": "https://github.com/cpbuildtools/dev-container-common.git"
+        },
+        {
+            "name": "lib-node-untilities",
+            "path": "../projects/lib-node-untilities",
+            "repository": "https://github.com/cpbuildtools/lib-node-untilities.git"
+        },
+        {
+            "name": "dev-host",
+            "path": "../projects/dev-host",
+            "repository": "https://github.com/cpbuildtools/dev-host.git"
+        },
+        {
+            "name": "dev-container",
+            "path": "../projects/dev-container",
+            "repository": "https://github.com/cpbuildtools/dev-container.git"
+        },
+        {
+            "name": "dev-environment",
+            "path": "../projects/dev-environment",
+            "repository": "https://github.com/cpbuildtools/dev-environment.git"
         },
         {
             "name": "devcontainer-ngdotnet",
